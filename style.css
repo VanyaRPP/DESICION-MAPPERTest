@@ -1,0 +1,204 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;;
+    text-decoration: none;
+}
+
+
+
+
+/***********/
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/**********/
+.content{
+    margin: 0 auto;
+    max-width: 1139px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+/***********/
+.firstBlock{
+    height: 550px;
+    padding-top: 50px;
+    background-blend-mode: multiply;
+    background-image: url(./img/programmer.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(20, 184, 28, 0.8);
+}
+.header{
+    flex-direction: row;
+    justify-content: space-between;
+    background-size: cover;
+}
+.Logo{
+    display: flex;
+    flex-direction: row;
+
+}
+.Logo img{
+    height: 100%;
+}
+.Logo h1{
+    color: #fff;;
+    margin: auto;
+    margin-left: 17px;
+    font-size: 22px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto 0;
+}
+.menu li{
+    list-style: none;
+}
+.nawLink{
+    margin: auto 0;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.nawLink:after {
+    display: block;
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #fff;
+    transition: width 0.4s ease-in-out;
+    }
+.nawLink:hover:after,
+.nawLink:focus:after {
+width: 100%;
+}
+.nawLink:hover{
+color:#fff;
+} 
+.button {
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 25px;
+    color: #fff;
+    margin-left: 20px;
+}
+/***********************/
+.lingua{
+    flex-direction: column;
+    color: #fff;
+
+}
+.lin{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+} 
+.lingua h2{
+    font-size: 70px;
+}
+.lingua p{
+    font-size: 14px;
+}
+/********************/
+.line{
+    width: 180px;
+    border: 5px solid #7fc992;
+}
+.text{
+    padding-top: 60px;
+}
+.text h3{
+    font-size: 45px;
+}
+.text h4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.miniText{
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/***************************/
+.thirdBlock{
+    background-color: #94949d;
+}
+.macbookImgs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.macImg{
+    height: 300px;
+}
+.threeDots{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #adadb0;
+}
+.threeDots li:hover{
+    color: #fff;
+}
+/************************/
+.quote{
+    background-color: #e9e9e9;
+    padding: 40px;
+}
+.quote p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+    text-align: end;
+}
+.bigText{
+    margin: 0 auto;
+    max-width: 1050px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+/************************************/
+.fifthBlock{
+    background-color: #2e2e42;
+    padding: 60px;
+}
+.iImgs{
+    display: flex;
+    justify-content: space-between;
+}
+.iImg{
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+/****************************/
+.sixBlock{
+    padding-top: 30px;
+    background-color: green;
+}
+.webImg1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.webImg2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.webImg{
+    height: 250px;
+}
+
